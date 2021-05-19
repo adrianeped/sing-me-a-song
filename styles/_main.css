@@ -1,0 +1,34 @@
+.page-title {
+  font-family: var(--primary-font);
+  color: var(--independence);
+  font-size: large;
+  text-align: center;
+}
+
+.button {
+  background-color: var(--independence);
+  font-family: var(--primary-font);
+}
+
+.header {
+  background-color: var(--maize-crayola);
+}
+
+.body {
+  background-color: var(--glaucous);
+}
+
+.main {
+  background-color: var(--jet);
+}
+
+.footer {
+  background-color: var(--timberwolf);
+  font-family: var(--primary-font);
+  text-align: center;
+  padding: 0.5rem;
+  position: fixed;
+  height: 8vh;
+  width: 100vw;
+  bottom: 0;
+}
