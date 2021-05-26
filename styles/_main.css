@@ -1,88 +1,65 @@
-.page-title {
+.title {
   font-family: var(--primary-font);
   font-weight: bold;
   color: var(--timberwolf);
-  font-size: 40px;
-  background-color: var(--glaucous);
-  display: flex;
-  padding: 1.5rem;
-  align-self: center;
-  justify-content: center;
-  border-radius: 0.5rem;
-  width: 50rem;
-}
-
-.header {
-  background-color: var(--jet);
-  padding: 0.5rem;
-  display: flex;
-  justify-content: center;
-  height: 30vh;
-  width: 100vw;
-}
-
-.body {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  background-color: var(--jet);
+  font-size: 2.5rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .main {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  flex: 1;
-  height: 25vh;
-  width: 100vw;
+  padding: 2rem;
 }
 
-.indication-button {
+.button {
   background-color: var(--timberwolf);
   font-family: var(--primary-font);
-  font-size: 20px;
-  padding: 0.5rem;
-  width: 20vw;
+  font-size: 1.25rem;
+  padding: 1rem;
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
+  margin: 0 auto;
+  display: block;
 }
 
-.infos-music-section {
+.music-info {
   display: flex;
-  text-align: justify;
-  margin: 12rem 0;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--maize-crayola);
+  width: 250px;
+  margin: 2rem auto 0;
+  padding: 1rem;
+  border-radius: 4px;
 }
 
-.album-section {
-  display: flex;
+.music-info__image {
   width: 200px;
 }
 
-.ul-section {
+.music-info__list {
   display: flex;
   flex-direction: column;
+  margin-top: 0.5rem;
 }
 
-.li-section {
-  background-color: var(--maize-crayola);
-  padding: 0.5rem;
+.music-info__item--music {
   display: flex;
-  align-self: center;
-  border-radius: 0.5rem;
-  margin: 0.2rem;
-  width: 50vw;
+}
+
+.music-info__item {
   font-size: 15px;
+  margin: 0.5rem auto 0;
 }
 
-.li-section a {
+.music-info__link {
   padding-right: 0.5rem;
+  color: inherit;
 }
 
-.li-img {
+.music-info__icon {
   width: 20px;
-  position: relative;
-  display: flex;
 }
