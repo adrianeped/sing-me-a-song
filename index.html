@@ -4,6 +4,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=KoHo&display=swap"
@@ -13,32 +14,38 @@
 
     <title>Sing me a song</title>
   </head>
-  <body class="body">
-    <header class="header">
-      <h1 class="page-title">SING ME A SONG</h1>
+  <body>
+    <header>
+      <h1 class="title">Sing me a song</h1>
     </header>
 
     <main class="main">
-      <button type="button" class="indication-button">
-        Indique-me uma música
-      </button>
+      <button type="button" class="button">Indique-me uma música</button>
 
-      <section class="infos-music-section">
-        <img class="album-section" src="images/album.svg" />
+      <div class="music-info">
+        <img class="music-info__image" src="images/album.svg" />
 
-        <ul class="ul-section">
-          <li class="li-section">Nome banda</li>
-          <li class="li-section">Nome música</li>
-          <li class="li-section">
-            <a href="https://open.spotify.com/track/3l0C4OaMp" target="_blank">
+        <ul class="music-info__list">
+          <li class="music-info__item">Nome banda</li>
+          <li class="music-info__item">Nome música</li>
+          <li class="music-info__item music-info__item--music">
+            <a
+              class="music-info__link"
+              href="https://open.spotify.com/track/3l0C4OaMp"
+              target="_blank"
+            >
               Ouça a música
             </a>
-            <img class="li-img" src="images/spotify.svg" alt="Spotify logo" />
+            <img
+              class="music-info__icon"
+              src="images/spotify.svg"
+              alt="Spotify logo"
+            />
           </li>
-          <li class="li-section">Nome do álbum</li>
-          <li class="li-section">Ano lançamento do album</li>
+          <li class="music-info__item">Nome do álbum</li>
+          <li class="music-info__item">Ano lançamento do album</li>
         </ul>
-      </section>
+      </div>
     </main>
   </body>
 </html>

@@ -103,6 +103,7 @@ section {
 body {
   font-family: var(--primary-font), sans-serif;
   line-height: 1;
+  background-color: var(--jet);
 }
 ol,
 ul {
